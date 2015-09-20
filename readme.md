@@ -12,8 +12,8 @@
 にしてください
 
 ##ドメイン指定
-1.[Weblock List for Japanese [iOS] [日本語] [domains]](http://cosmonote.blogspot.jp/2014/02/weblock-list-for-japanese-ios-domains.html?m=1)
-2.[◆iV/mj2eF/.移植版](http://cosmonote.blogspot.jp/2014/02/weblock-list-for-japanese-ios-domains.html?m=1)
+1.[Weblock List for Japanese [iOS] [日本語] [domains]](http://cosmonote.blogspot.jp/2014/02/weblock-list-for-japanese-ios-domains.html?m=1)  
+2.[◆iV/mj2eF/.移植版](http://cosmonote.blogspot.jp/2014/02/weblock-list-for-japanese-ios-domains.html?m=1)  
 
 ##カスタムフィルター
 この機能は上級者向けです  
