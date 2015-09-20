@@ -29,12 +29,3 @@ zzz.aaa.jpやxxx.aaa.jpにマッチさせたい場合、aaa.jpだけを指定し
 この機能は上級者向けです  
 WebkitのContent Blockersの仕様に従って記述します  
 [Introduction to WebKit Content Blockers](https://www.webkit.org/blog/3476/content-blockers-first-look/)
-
-###とりあえず使いたい人向け
-[アダルト広告ブロック（軽量版）](https://www.webkit.org/blog/3476/content-blockers-first-look/)
-[アダルト広告ブロック](https://www.webkit.org/blog/3476/content-blockers-first-look/)
-  
-現在いずれか一つのみ適用可能です。すべて詰め込むとエラーが出る可能性があります。  
-使用する場合は、カスタムフィルター欄の内容を全て削除してからペーストしてください。  
-下にそのまま追加していくとJSONのパースエラーが起きます。  
-JSONがわかる方は適当に修正してください。 
