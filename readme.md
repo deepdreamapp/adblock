@@ -21,7 +21,7 @@ zzz.aaa.jpやxxx.aaa.jpにマッチさせたい場合、aaa.jpだけを指定し
   
 その他有志によるドメインリストです  
 1.[Weblock List for Japanese [iOS] [日本語] [domains]](http://cosmonote.blogspot.jp/2014/02/weblock-list-for-japanese-ios-domains.html?m=1)  
-2.[◆iV/mj2eF/.移植版](http://notepad.cc/share/TcB5cuqLBI)  
+2.[◆iV/mj2eF/.移植版](http://sugokunemui.github.io/superblock/domain.html)  
   
 ※追加し過ぎるとSafariの動作が重くなるかもしれません
 
