@@ -12,3 +12,6 @@
 にしてください
 
 ## カスタムフィルター
+この機能は上級者向けです  
+WebkitのContent Blockersの仕様に従って記述します  
+[Introduction to WebKit Content Blockers](https://www.webkit.org/blog/3476/content-blockers-first-look/)
