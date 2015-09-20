@@ -21,7 +21,7 @@ zzz.aaa.jpやxxx.aaa.jpにマッチさせたい場合、aaa.jpだけを指定し
   
 その他有志によるドメインリストです  
 1.[Weblock List for Japanese [iOS] [日本語] [domains]](http://cosmonote.blogspot.jp/2014/02/weblock-list-for-japanese-ios-domains.html?m=1)  
-2.[◆iV/mj2eF/.移植版](https://raw.githubusercontent.com/sugokunemui/adblock/master/domain.txt)  
+2.[◆iV/mj2eF/.移植版](http://notepad.cc/share/TcB5cuqLBI)  
   
 ※追加し過ぎるとSafariの動作が重くなるかもしれません
 
@@ -36,4 +36,5 @@ WebkitのContent Blockersの仕様に従って記述します
   
 現在いずれか一つのみ適用可能です。すべて詰め込むとエラーが出る可能性があります。  
 使用する場合は、カスタムフィルター欄の内容を全て削除してからペーストしてください。  
-下にそのまま追加していくとJSONのパースエラーが起きます。    
+下にそのまま追加していくとJSONのパースエラーが起きます。  
+JSONがわかる方は適当に修正してください。 
