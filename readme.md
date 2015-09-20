@@ -12,8 +12,16 @@
 にしてください
 
 ##ドメイン指定
+読み込みをブロックしたいURLのドメインを指定します  
+サブドメインは全てマッチします  
+例）  
+zzz.aaa.jpやxxx.aaa.jpにマッチさせたい場合、aaa.jpだけを指定します  
+  
+入力する際はドメインごとに改行してください  
+  
+その他有志によるドメインリストです  
 1.[Weblock List for Japanese [iOS] [日本語] [domains]](http://cosmonote.blogspot.jp/2014/02/weblock-list-for-japanese-ios-domains.html?m=1)  
-2.[◆iV/mj2eF/.移植版](http://cosmonote.blogspot.jp/2014/02/weblock-list-for-japanese-ios-domains.html?m=1)  
+2.[◆iV/mj2eF/.移植版](https://raw.githubusercontent.com/sugokunemui/adblock/master/domain.txt)  
 
 ##カスタムフィルター
 この機能は上級者向けです  
