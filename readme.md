@@ -95,4 +95,20 @@ https://sub.sub.example.com/homuhomu
 example.com及びその全てのサブドメインをブロックできます  
   
 ####jsファイルの読み込みをブロックする 
-
+ads.jsをブロックしたい場合は以下のようにします
+`"url-filter":"/ads\\.js"`
+  
+似たようなファイル名をまとめてブロックする場合は、
+`"url-filter":"/ad.+\\.js"`
+のようにすると以下のようなファイルをすべてブロックします
+```
+ad.js
+ads.js
+advertise.js
+ad_popup.js
+ad_loader.js
+add.js
+add_count.js
+adventure.js
+```
+このような指定の方法は目的のファイル以外もブロックしてしまうため副作用が発生する可能性があります
