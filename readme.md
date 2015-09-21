@@ -75,8 +75,20 @@ url-filterは常に正規表現でマッチします
 は以下のようなURLをブロックします  
 ```
 http://example.com/homuhomu
+http://sub.example.com/
 https://homuhomu-example.com.jp/homuhomu
 http://homuhomu.com/homu?url=http://example.com
 ```
 example.comが含まれていれば、それがどこに出現しようとブロックします  
 
+####厳密な例
+もう少し厳密にURLをブロックするにはurl-filterの指定を以下のようにします  
+    "url-filter":"//(.+\\.)?example\\.com/"
+この条件は以下のURLにマッチします
+```
+http://example.com/
+http://example.com/homuhomu
+https://example.com/homuhomu
+http://sub.example.com/homuhomu
+https://sub.sub.example.com/homuhomu
+```
