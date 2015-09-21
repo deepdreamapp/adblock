@@ -59,7 +59,7 @@ WebkitのContent Blockersの仕様に従って記述します
 JSONの検証用  
 [JSONLint](http://jsonlint.com/)  
   
-  
+
 ##Content Blockersの仕様について  
 コンテンツブロッカーではフィルターをJSONで表します
 このJSONはトップレベルに一つの配列があり、その中に複数のフィルターオブジェクトが入ります  
@@ -250,9 +250,18 @@ Level4の新しいセレクタも使えるそうです
 ####後方一致
 `"selector": "div[class$='substr']"`  
   
-
+  
+###特定のリンクを非表示
+`<a src="http://affiliate.com/article/123456789.html">【悲報】した結果ｗｗｗ(※画像あり)</a>`  
+のようなリンクを消す場合、 
+  
+`"selector": "a[href*='affiliate.com']"`   
+  
+とすれば消えます
+  
+  
 ###特定の属性を持つ要素を非表示
-`<img src="homu.png" width="100" height="100"></div>`  
+`<img src="homu.png" width="100" height="100">`  
 のようにwidthやheightの属性を持つ要素に対し、  
   
 `"selector": "img[width='100']"`  
