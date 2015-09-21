@@ -68,4 +68,15 @@ URLをブロックする基本的なフィルターは
 です  
 url-filterは常に正規表現でマッチします  
 .はメタ文字ですのでエスケープして\\.にします  
-(通常の正規表現ではバックスラッシュは一つですがJSONで文字列として表現する場合バックスラッシュ自体のエスケープが必要です)  
+(通常の正規表現ではバックスラッシュは一つですがJSONで文字列として表現する場合バックスラッシュ自体のエスケープが必要なため２つ使います)  
+
+####単純な例
+    "url-filter":"example\\.com"
+は以下のようなURLをブロックします  
+```javascript
+http://example.com/homuhomu
+https://homuhomu-example.com.jp/homuhomu
+http://homuhomu.com/homu?url=http://example.com
+```
+example.comが含まれていれば、それがどこに出現しようとブロックします  
+
