@@ -23,6 +23,14 @@
 		"url-filter":".+/popup\\.js"
 	}
 },
+{  
+	"action":{  
+		"type":"block"
+	},
+	"trigger":{  
+		"url-filter":".+/ad/.+"
+	}
+}, 
 {
 	"action": {
 		"type": "css-display-none",
@@ -72,6 +80,51 @@
 	"action": {
 		"type": "css-display-none",
 		"selector": "#bottomAds"
+	},
+	"trigger": {
+		"url-filter": ".*"
+	}
+},
+{
+	"action": {
+		"type": "css-display-none",
+		"selector": "#floatingAdContainer"
+	},
+	"trigger": {
+		"url-filter": ".*"
+	}
+},
+{
+	"action": {
+		"type": "css-display-none",
+		"selector": "#videopageadblock"
+	},
+	"trigger": {
+		"url-filter": ".*"
+	}
+},
+{
+	"action": {
+		"type": "css-display-none",
+		"selector": "#divExoLayerWrapper"
+	},
+	"trigger": {
+		"url-filter": ".*"
+	}
+},
+{
+	"action": {
+		"type": "css-display-none",
+		"selector": "topadblock"
+	},
+	"trigger": {
+		"url-filter": ".*"
+	}
+},
+{
+	"action": {
+		"type": "css-display-none",
+		"selector": "bottomadblock"
 	},
 	"trigger": {
 		"url-filter": ".*"

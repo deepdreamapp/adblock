@@ -35,7 +35,7 @@ zzz.aaa.jpやxxx.aaa.jpにマッチさせたい場合、aaa.jpだけを指定し
   
 今後複数のフィルターをインポートし統合する機能を追加します。  
   
-##カスタムフィルター
+##カスタムフィルターを作る
 この機能は上級者向けです  
 WebkitのContent Blockersの仕様に従って記述します  
 [Introduction to WebKit Content Blockers](https://www.webkit.org/blog/3476/content-blockers-first-look/)
