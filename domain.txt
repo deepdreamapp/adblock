@@ -6,8 +6,8 @@ cdn.yoyakucdn.com
 j.adticker.net
 alist.unitedblades.co.jp
 j.guile.jp
-104749.sprout-ad.com
 meta.wikimedia.org
+sprout-ad.com
 iadsdk.apple.com
 qwapi.com
 r.yoz.io
@@ -92,7 +92,6 @@ tictacti.com
 media-rep.com
 serving-sys.com
 trax-ad.jp
-sprout-ad.com
 proxy.img.mc0.jp
 moba8.net
 focas.jp
@@ -121,7 +120,6 @@ app-adforce.jp
 burning-phoenix.kir.jp
 ad-shot.com
 san-ni-ichi.com
-d.sprout-ad.com
 ad2.shallwead.com
 apbox.naver.com
 m.apbox.naver.com

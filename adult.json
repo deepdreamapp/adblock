@@ -18,6 +18,15 @@
 {
 	"action": {
 		"type": "css-display-none",
+		"selector": "a[href*='black-diamond.asia']"
+	},
+	"trigger": {
+		"url-filter": ".*"
+	}
+},
+{
+	"action": {
+		"type": "css-display-none",
 		"selector": "a[href*='chmato.me']"
 	},
 	"trigger": {
