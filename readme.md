@@ -83,7 +83,7 @@ example.comが含まれていれば、それがどこに出現しようとブロ
 
 ####厳密な例
 もう少し厳密にURLをブロックするにはurl-filterの指定を以下のようにします  
-    "url-filter":"//(.+\\.)?example\\.com/"
+    "url-filter":"//(.+\\.)?example\\.com/"  
 この条件は以下のURLにマッチします
 ```
 http://example.com/
