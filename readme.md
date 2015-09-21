@@ -83,7 +83,7 @@ example.comが含まれていれば、それがどこに出現しようとブロ
 
 ####厳密な例
 もう少し厳密にURLをブロックするにはurl-filterの指定を以下のようにします  
-    "url-filter":"//(.+\\.)?example\\.com/"  
+    "url-filter":"//(.+\\.)?example\\.com/"
 この条件は以下のURLにマッチします
 ```
 http://example.com/
@@ -92,3 +92,7 @@ https://example.com/homuhomu
 http://sub.example.com/homuhomu
 https://sub.sub.example.com/homuhomu
 ```
+example.com及びその全てのサブドメインをブロックできます  
+  
+####jsファイルの読み込みをブロックする 
+
