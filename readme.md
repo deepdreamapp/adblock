@@ -214,8 +214,13 @@ Level4の新しいセレクタも使えるそうです
 のようになります   
 また、上記の指定は  
 `<div class="popup advertise float show"></div>`  
-のように複数のクラスを持っていてもマッチします
-  
+のように複数のクラスを持っていてもマッチします  
+
+`<div id="advertise"></div>`  
+を非表示にする場合は  
+`"selector": "#advertise"`  
+のようにします  
+
 
 ###クラス名に特定の文字を含む場合  
 `<div class="advertise"></div>`  
@@ -225,7 +230,7 @@ Level4の新しいセレクタも使えるそうです
 を非表示にするには  
 `"selector": "div[class*='ad']"`  
 のようにします  
-  
+
 `class*='substr'`はクラス名に`substr`を含んでいるものにマッチします  
   
 その他マッチング例  
