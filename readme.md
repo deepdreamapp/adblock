@@ -150,8 +150,42 @@ adventure.js
 * media  
 * popup  
   
-画像とjsファイルだけブロックする場合は以下のようにします
+注意すべき点は`resource-type`が受け取るのは配列であるということです  
+  
+画像とjsファイルだけブロックする場合は以下のようにします  
 `"resource-type": ["script", "image"]`  
   
 すべての形式をブロックしたい場合はそもそも`resource-type`を指定すべきではありません  
   
+  
+####ドメインブラックリスト  
+特定のドメインの場合だけ処理をするには以下の様なフィルターを使います  
+```javascript
+{  
+	"action":{  
+		"type":"block"
+	},
+	"trigger":{  
+		"url-filter":"/ads\\.js",
+        "if-domain": ["homuhomu.jp", "affiliate.com"]
+	}
+}
+```
+`if-domain`に、対象とするドメイン文字列を入れた配列を渡します  
+`if-domain`に指定されたドメイン以外ではこのフィルターは無効となります  
+
+####ドメインホワイトリスト
+特定のドメインだけ処理を行わない、ホワイトリストを作るには以下のようにします
+ ```javascript
+{  
+	"action":{  
+		"type":"block"
+	},
+	"trigger":{  
+		"url-filter":"/ads\\.js",
+        "unless-domain": ["white.jp", "verygood.com"]
+	}
+}
+```
+`unless-domain`に指定されたドメインではこのフィルターが無効になります。  
+それ以外のドメインでは有効になります  
