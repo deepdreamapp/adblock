@@ -140,12 +140,12 @@ adventure.js
 ```
 `resource-type`を指定することで、画像だけブロックしたりjsファイルだけブロックすることができます  
 `resource-type`には以下を指定できます  
-*document  
-*image  
-*style-sheet  
-*script  
-*font  
-*raw  
-*svg-document  
-*media  
-*popup  
+* document  
+* image  
+* style-sheet  
+* script  
+* font  
+* raw  
+* svg-document  
+* media  
+* popup  
