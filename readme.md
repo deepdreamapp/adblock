@@ -218,7 +218,9 @@ Level4の新しいセレクタも使えるそうです
 
 `<div id="advertise"></div>`  
 を非表示にする場合は  
+
 `"selector": "#advertise"`  
+
 のようにします  
 
 
@@ -228,7 +230,9 @@ Level4の新しいセレクタも使えるそうです
 `<div class="ads"></div>` 
 
 を非表示にするには  
+
 `"selector": "div[class*='ad']"`  
+
 のようにします  
 
 `class*='substr'`はクラス名に`substr`を含んでいるものにマッチします  
@@ -240,3 +244,12 @@ Level4の新しいセレクタも使えるそうです
 
 ####後方一致
 `"selector": "div[class$='substr']"`  
+  
+
+###特定の属性を持つ要素を非表示
+`<img src="homu.png" width="100" height="100"></div>`  
+のようにwidthやheightの属性を持つ要素に対し、  
+  
+`"selector": "img[width='100']"`  
+  
+とすれば、widthが100のimgを全て非表示にします  
