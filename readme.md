@@ -82,7 +82,7 @@ http://homuhomu.com/homu?url=http://example.com
 example.comが含まれていれば、それがどこに出現しようとブロックします  
 
 ####厳密な例
-もう少し厳密にURLをブロックするにはurl-filterの指定を以下のようにします  
+もう少し厳密にURLをブロックするにはurl-filterの指定を以下のようにします
     "url-filter":"//(.+\\.)?example\\.com/"
 この条件は以下のURLにマッチします
 ```
