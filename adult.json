@@ -1,0 +1,27 @@
+[
+{  
+	"action":{  
+		"type":"block"
+	},
+	"trigger":{  
+		"url-filter":".+/pop\\.js"
+	}
+}, 
+{  
+	"action":{  
+		"type":"block"
+	},
+	"trigger":{  
+		"url-filter":".+/popup\\.js"
+	}
+},
+{
+	"action": {
+		"type": "css-display-none",
+		"selector": "a[href*=chmato.me]"
+	},
+	"trigger": {
+		"url-filter": ".*"
+	}
+}
+]
