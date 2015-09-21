@@ -55,7 +55,11 @@ WebkitのContent Blockersの仕様に従って記述します
   
 [テスト用サンドボックス](http://sugokunemui.github.io/superblock/sandbox.html)  
 [テスト用フィルター例](http://sugokunemui.github.io/superblock/sandbox.json)  
-
+  
+JSONの検証用  
+[JSONLint](http://jsonlint.com/)  
+  
+  
 ##Content Blockersの仕様について  
 コンテンツブロッカーではフィルターをJSONで表します
 このJSONはトップレベルに一つの配列があり、その中に複数のフィルターオブジェクトが入ります  
