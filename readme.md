@@ -252,7 +252,7 @@ Level4の新しいセレクタも使えるそうです
   
   
 ###特定のリンクを非表示
-`<a src="http://affiliate.com/article/123456789.html">【悲報】した結果ｗｗｗ(※画像あり)</a>`  
+`<a href="http://affiliate.com/article/123456789.html">【悲報】した結果ｗｗｗ(※画像あり)</a>`  
 のようなリンクを消す場合、 
   
 `"selector": "a[href*='affiliate.com']"`   
