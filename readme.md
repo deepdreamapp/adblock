@@ -54,6 +54,7 @@ WebkitのContent Blockersの仕様に従って記述します
 [Introduction to WebKit Content Blockers](https://www.webkit.org/blog/3476/content-blockers-first-look/)  
   
 [テスト用サンドボックス](http://sugokunemui.github.io/superblock/sandbox.html)  
+[テスト用フィルター例](http://sugokunemui.github.io/superblock/sandbox.json)  
 
 ##Content Blockersの仕様について  
 コンテンツブロッカーではフィルターをJSONで表します
