@@ -82,8 +82,8 @@ http://homuhomu.com/homu?url=http://example.com
 example.comが含まれていれば、それがどこに出現しようとブロックします  
 
 ####厳密な例
-もう少し厳密にURLをブロックするにはurl-filterの指定を以下のようにします
-`"url-filter":"//(.+\\.)?example\\.com/"`
+もう少し厳密にURLをブロックするにはurl-filterの指定を以下のようにします  
+`"url-filter":"//(.+\\.)?example\\.com/"`  
 この条件は以下のURLにマッチします
 ```
 http://example.com/
@@ -95,11 +95,11 @@ https://sub.sub.example.com/homuhomu
 example.com及びその全てのサブドメインをブロックできます  
   
 ####jsファイルの読み込みをブロックする 
-ads.jsをブロックしたい場合は以下のようにします
-`"url-filter":"/ads\\.js"`
+ads.jsをブロックしたい場合は以下のようにします  
+`"url-filter":"/ads\\.js"`  
   
-似たようなファイル名をまとめてブロックする場合は、
-`"url-filter":"/ad.+\\.js"`
+似たようなファイル名をまとめてブロックする場合は、  
+`"url-filter":"/ad.+\\.js"`  
 のようにすると以下のようなファイルをすべてブロックします
 ```
 ad.js
