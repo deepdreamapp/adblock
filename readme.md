@@ -54,3 +54,13 @@ WebkitのContent Blockersの仕様に従って記述します
   
 
 ###URLをブロックする  
+URLをブロックする基本的なフィルターは  
+    {  
+	    "action":{  
+		    "type":"block"
+	    },
+	    "trigger":{  
+		    "url-filter":".+/pop\\.js"
+	    }
+    }
+です
