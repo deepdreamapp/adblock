@@ -10,8 +10,9 @@
 ↓  
 「Superblock」をオン  
 
-にしてください
-
+にしてください  
+  
+  
 ##ドメイン指定
 読み込みをブロックしたいURLのドメインを指定します  
 サブドメインは全てマッチします  
@@ -20,21 +21,22 @@ zzz.aaa.jpやxxx.aaa.jpにマッチさせたい場合、aaa.jpだけを指定し
   
 入力する際はドメインごとに改行してください  
   
-その他有志によるドメインリストです  
+以下のドメイン指定リストもご利用ください  
 1.[Weblock List for Japanese [iOS] [日本語] [domains]](http://cosmonote.blogspot.jp/2014/02/weblock-list-for-japanese-ios-domains.html?m=1)  
-2.[◆iV/mj2eF/.移植版](http://sugokunemui.github.io/superblock/domain.html)  
+2.[アダルト広告ブロック](http://sugokunemui.github.io/superblock/domain.html)  
   
-※追加し過ぎるとSafariの動作が重くなるかもしれません
-  
+
 ##カスタムフィルターを使う  
 現在インポート機能などが無いため、カスタムフィルターを使う場合は注意が必要です。  
 すでに入力されているカスタムフィルターを全て消して空の状態にしてから、使いたいフィルターリストをペーストしてください。  
 すでに入っているものの下に追記していくとエラーが出る可能性があります  
   
+以下のいずれかをお使いください  
 1.[アダルト広告＆ポップアップブロック](http://sugokunemui.github.io/superblock/adult.html)  
   
 今後複数のフィルターをインポートし統合する機能を追加します。  
   
+
 ##カスタムフィルターを作る
 この機能は上級者向けです  
 WebkitのContent Blockersの仕様に従って記述します  
