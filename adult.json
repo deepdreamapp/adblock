@@ -18,7 +18,7 @@
 {
 	"action": {
 		"type": "css-display-none",
-		"selector": "a[href*=chmato.me]"
+		"selector": "a[href*='chmato.me']"
 	},
 	"trigger": {
 		"url-filter": ".*"
