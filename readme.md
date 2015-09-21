@@ -71,7 +71,7 @@ url-filterは常に正規表現でマッチします
 (通常の正規表現ではバックスラッシュは一つですがJSONで文字列として表現する場合バックスラッシュ自体のエスケープが必要なため２つ使います)  
 
 ####単純な例
-    "url-filter":"example\\.com"
+`"url-filter":"example\\.com"`
 は以下のようなURLをブロックします  
 ```
 http://example.com/homuhomu
@@ -83,7 +83,7 @@ example.comが含まれていれば、それがどこに出現しようとブロ
 
 ####厳密な例
 もう少し厳密にURLをブロックするにはurl-filterの指定を以下のようにします
-    "url-filter":"//(.+\\.)?example\\.com/"
+`"url-filter":"//(.+\\.)?example\\.com/"`
 この条件は以下のURLにマッチします
 ```
 http://example.com/
