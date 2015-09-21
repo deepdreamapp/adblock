@@ -149,3 +149,9 @@ adventure.js
 * svg-document  
 * media  
 * popup  
+  
+画像とjsファイルだけブロックする場合は以下のようにします
+`"resource-type": ["script", "image"]`  
+  
+すべての形式をブロックしたい場合はそもそも`resource-type`を指定すべきではありません  
+  
