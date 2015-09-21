@@ -193,6 +193,11 @@ adventure.js
 
 ##要素を非表示にする
 CSSセレクタを使い要素の非表示ができます  
+Level4の新しいセレクタも使えるそうです  
+[CSS Selectors Level 4](https://drafts.csswg.org/selectors-4/#overview)  
+  
+
+###基本
 `<div class="advertise"></div>`  
 を非表示にするフィルターは  
  ```javascript
@@ -206,4 +211,25 @@ CSSセレクタを使い要素の非表示ができます
 	}
 }
 ```
-のようになります
+のようになります   
+また、上記の指定は  
+`<div class="popup advertise float show"></div>`  
+のように複数のクラスを持っていてもマッチします
+  
+
+###クラス名に特定の文字を含む場合  
+`<div class="advertise"></div>`  
+`<div class="ad"></div>`  
+`<div class="ads"></div>`  
+を非表示にするには  
+`"selector": "div[class*='ad']"`  
+のようにします  
+`class*='substr'`はクラス名に`substr`を含んでいるものにマッチします  
+  
+その他マッチング例  
+
+####前方一致
+`"selector": "div[class^='substr']"`  
+
+####後方一致
+`"selector": "div[class$='substr']"`  
