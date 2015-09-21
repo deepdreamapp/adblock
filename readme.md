@@ -220,10 +220,12 @@ Level4の新しいセレクタも使えるそうです
 ###クラス名に特定の文字を含む場合  
 `<div class="advertise"></div>`  
 `<div class="ad"></div>`  
-`<div class="ads"></div>`  
+`<div class="ads"></div>` 
+
 を非表示にするには  
 `"selector": "div[class*='ad']"`  
 のようにします  
+  
 `class*='substr'`はクラス名に`substr`を含んでいるものにマッチします  
   
 その他マッチング例  
