@@ -202,6 +202,87 @@
 		"url-filter": ".*"
 	}
 },
+{
+	"action": {
+		"type": "css-display-none",
+		"selector": "a[href*='black-diamond.asia']"
+	},
+	"trigger": {
+		"url-filter": ".*"
+	}
+},
+{
+	"action": {
+		"type": "css-display-none",
+		"selector": "a[href*='burning-phoenix.kir.jp']"
+	},
+	"trigger": {
+		"url-filter": ".*"
+	}
+},
+{
+	"action": {
+		"type": "css-display-none",
+		"selector": "a[href*='ad.aspm.jp']"
+	},
+	"trigger": {
+		"url-filter": ".*"
+	}
+},
+{
+	"action": {
+		"type": "css-display-none",
+		"selector": "a[href*='ac-max.kir.jp']"
+	},
+	"trigger": {
+		"url-filter": ".*"
+	}
+},
+{
+	"action": {
+		"type": "css-display-none",
+		"selector": "a[href*='yicha.jp']"
+	},
+	"trigger": {
+		"url-filter": ".*"
+	}
+},
+{
+	"action": {
+		"type": "css-display-none",
+		"selector": "a[href*='deaicute.com']"
+	},
+	"trigger": {
+		"url-filter": ".*"
+	}
+},
+{
+	"action": {
+		"type": "css-display-none",
+		"selector": "a[href*='soraad.jp']"
+	},
+	"trigger": {
+		"url-filter": ".*"
+	}
+},
+{
+	"action": {
+		"type": "css-display-none",
+		"selector": "a[href*='trafficjp.com']"
+	},
+	"trigger": {
+		"url-filter": ".*"
+	}
+},
+{
+	"action": {
+		"type": "css-display-none",
+		"selector": "a[href*='chmato.me']"
+	},
+	"trigger": {
+		"url-filter": ".*"
+	}
+},
 {  
 	"action":{  
 		"type":"css-display-none",
@@ -232,7 +313,25 @@
 {  
 	"action":{  
 		"type":"css-display-none",
+		"selector":"a[href*='trafficjp.com']"
+	},
+	"trigger":{  
+		"url-filter":".*"
+	}
+},
+{  
+	"action":{  
+		"type":"css-display-none",
 		"selector":"a[href*='deaicute.com']"
+	},
+	"trigger":{  
+		"url-filter":".*"
+	}
+},
+{  
+	"action":{  
+		"type":"css-display-none",
+		"selector":"a[href*='adrcf.com']"
 	},
 	"trigger":{  
 		"url-filter":".*"
