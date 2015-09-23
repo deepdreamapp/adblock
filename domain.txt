@@ -1,4 +1,5 @@
 blogroll.livedoor.net
+koukoku.red
 i.mt2.in
 cache.imona.me
 api.accelarts.com

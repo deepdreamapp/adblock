@@ -142,6 +142,15 @@
 {
 	"action": {
 		"type": "css-display-none",
+		"selector": "a[href*='burning-phoenix.kir.jp']"
+	},
+	"trigger": {
+		"url-filter": ".*"
+	}
+},
+{
+	"action": {
+		"type": "css-display-none",
 		"selector": "a[href*='chmato.me']"
 	},
 	"trigger": {
