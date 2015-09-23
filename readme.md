@@ -44,7 +44,7 @@ zzz.aaa.jpやxxx.aaa.jpをブロックしたい場合、aaa.jpだけを指定し
   
 以下のいずれかをお使いください  
 1.[アダルト広告＆ポップアップブロック軽量版](http://sugokunemui.github.io/superblock/adult.min.html)  
-2.[アダルト広告＆ポップアップブロック徹底版（※ページの読み込みが遅くなるかもしれません）](http://sugokunemui.github.io/superblock/adult.html)  
+2.[アダルト広告＆ポップアップブロック](http://sugokunemui.github.io/superblock/adult.html)  
   
 今後複数のフィルターをインポートし統合する機能を追加します  
   
