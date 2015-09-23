@@ -1,0 +1,29 @@
+[
+{  
+	"action":{  
+		"type":"block"
+	},
+	"trigger":{  
+		"url-filter":".+rss.+",
+        "resource-type": ["script", "document", "raw"]
+	}
+}, 
+{
+	"action": {
+		"type": "css-display-none",
+		"selector": "div[id*='rss']"
+	},
+	"trigger": {
+		"url-filter": ".*"
+	}
+},
+{
+	"action": {
+		"type": "css-display-none",
+		"selector": "div[class*='rss']"
+	},
+	"trigger": {
+		"url-filter": ".*"
+	}
+}
+]
