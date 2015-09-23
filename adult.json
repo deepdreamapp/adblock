@@ -34,6 +34,15 @@
 {
 	"action": {
 		"type": "css-display-none",
+		"selector": "div[id*='imobile_adspot']"
+	},
+	"trigger": {
+		"url-filter": ".*"
+	}
+},
+{
+	"action": {
+		"type": "css-display-none",
 		"selector": ".adnetflame"
 	},
 	"trigger": {
@@ -143,6 +152,24 @@
 	"action": {
 		"type": "css-display-none",
 		"selector": "a[href*='burning-phoenix.kir.jp']"
+	},
+	"trigger": {
+		"url-filter": ".*"
+	}
+},
+{
+	"action": {
+		"type": "css-display-none",
+		"selector": "a[href*='ad.aspm.jp']"
+	},
+	"trigger": {
+		"url-filter": ".*"
+	}
+},
+{
+	"action": {
+		"type": "css-display-none",
+		"selector": "a[href*='ac-max.kir.jp']"
 	},
 	"trigger": {
 		"url-filter": ".*"
