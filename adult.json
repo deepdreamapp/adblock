@@ -178,6 +178,24 @@
 {
 	"action": {
 		"type": "css-display-none",
+		"selector": "a[href*='yicha.jp']"
+	},
+	"trigger": {
+		"url-filter": ".*"
+	}
+},
+{
+	"action": {
+		"type": "css-display-none",
+		"selector": "a[href*='deaicute.com']"
+	},
+	"trigger": {
+		"url-filter": ".*"
+	}
+},
+{
+	"action": {
+		"type": "css-display-none",
 		"selector": "a[href*='chmato.me']"
 	},
 	"trigger": {
