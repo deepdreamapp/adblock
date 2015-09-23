@@ -61,15 +61,6 @@
 {
 	"action": {
 		"type": "css-display-none",
-		"selector": ".pop-fade"
-	},
-	"trigger": {
-		"url-filter": ".*"
-	}
-},
-{
-	"action": {
-		"type": "css-display-none",
 		"selector": ".sponsored_link"
 	},
 	"trigger": {
@@ -89,6 +80,15 @@
 	"action": {
 		"type": "css-display-none",
 		"selector": ".sponsoredLink"
+	},
+	"trigger": {
+		"url-filter": ".*"
+	}
+},
+{
+	"action": {
+		"type": "css-display-none",
+		"selector": ".pop-fade"
 	},
 	"trigger": {
 		"url-filter": ".*"
@@ -179,6 +179,15 @@
 	"action":{  
 		"type":"css-display-none",
 		"selector":"a[href*='koukoku.red']"
+	},
+	"trigger":{  
+		"url-filter":".*"
+	}
+},
+{  
+	"action":{  
+		"type":"css-display-none",
+		"selector":"a[href*='casa24ore.com']"
 	},
 	"trigger":{  
 		"url-filter":".*"
