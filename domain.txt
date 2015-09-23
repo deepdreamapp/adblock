@@ -1,6 +1,7 @@
 blogroll.livedoor.net
 koukoku.red
 deaicute.com
+soraad.jp
 i.mt2.in
 cache.imona.me
 api.accelarts.com
@@ -300,13 +301,10 @@ xlisting.jp
 trafficfactory.biz
 adm.fwmrm.net
 ads.youtube.com
-pagead.googlesyndication.com
-pagead2.googlesyndication.com
+googlesyndication.com
 www.mygooglepagerank.com
 google.tucows.com
 googleadsense.ya.com
-domains.googlesyndication.com
-pagead2.googlesyndication.com
 adservices.google.com
 video-stats.video.google.com
 google-analytics.com

@@ -196,6 +196,15 @@
 {
 	"action": {
 		"type": "css-display-none",
+		"selector": "a[href*='soraad.jp']"
+	},
+	"trigger": {
+		"url-filter": ".*"
+	}
+},
+{
+	"action": {
+		"type": "css-display-none",
 		"selector": "a[href*='chmato.me']"
 	},
 	"trigger": {
