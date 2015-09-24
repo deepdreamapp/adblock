@@ -82,6 +82,24 @@
 {
 	"action": {
 		"type": "css-display-none",
+		"selector": "a[href*='new-soku.net']"
+	},
+	"trigger": {
+		"url-filter": ".*"
+	}
+},
+{
+	"action": {
+		"type": "css-display-none",
+		"selector": "a[href*='tokkaban.com']"
+	},
+	"trigger": {
+		"url-filter": ".*"
+	}
+},
+{
+	"action": {
+		"type": "css-display-none",
 		"selector": "a[href*='newmofu.doorblog.jp']"
 	},
 	"trigger": {
