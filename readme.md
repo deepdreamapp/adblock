@@ -42,14 +42,14 @@ zzz.aaa.jpやxxx.aaa.jpをブロックしたい場合、aaa.jpだけを指定し
 すでに入力されているカスタムフィルターを全て消して空の状態にしてから、使いたいカスタムフィルターをペーストしてください  
 すでに入っているものの下に追記していくとエラーが出る可能性があります  
   
-以下のいずれかをお使いください  
+以下のいずれかをお使いください（ページを開けない場合はSuperblockをオフに）  
 1.[アダルト広告＆ポップアップブロック軽量版](http://sugokunemui.github.io/superblock/adult.min.html)  
 2.[アダルト広告＆ポップアップブロック](http://sugokunemui.github.io/superblock/adult.html)  
 3.[相互RSSブロック](http://sugokunemui.github.io/superblock/rss.html)  
 4.[アダルト広告＆ポップアップ＆相互RSSブロック](http://sugokunemui.github.io/superblock/adult.rss.html)  
   
 今後複数のフィルターをインポートし統合する機能を追加します  
-  
+
 
 ##カスタムフィルターを作る
 この機能は上級者向けです  
