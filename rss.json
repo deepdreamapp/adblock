@@ -38,6 +38,15 @@
 {
 	"action": {
 		"type": "css-display-none",
+		"selector": "a[href*='moudamepo.com']"
+	},
+	"trigger": {
+		"url-filter": ".*"
+	}
+},
+{
+	"action": {
+		"type": "css-display-none",
 		"selector": "a[href*='newmofu.doorblog.jp']"
 	},
 	"trigger": {
