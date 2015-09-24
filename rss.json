@@ -8,6 +8,14 @@
         "resource-type": ["script", "document", "raw"]
 	}
 }, 
+{  
+	"action":{  
+		"type":"block"
+	},
+	"trigger":{  
+		"url-filter":"//blogroll.livedoor.net/js/blogroll.js"
+	}
+}, 
 {
 	"action": {
 		"type": "css-display-none",
