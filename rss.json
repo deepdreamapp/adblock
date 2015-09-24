@@ -25,5 +25,14 @@
 	"trigger": {
 		"url-filter": ".*"
 	}
+},
+{
+	"action": {
+		"type": "css-display-none",
+		"selector": "a[href*='2ch-c.net']"
+	},
+	"trigger": {
+		"url-filter": ".*"
+	}
 }
 ]
