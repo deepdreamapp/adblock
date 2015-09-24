@@ -47,6 +47,24 @@
 {
 	"action": {
 		"type": "css-display-none",
+		"selector": "a[href*='get2ch.net']"
+	},
+	"trigger": {
+		"url-filter": ".*"
+	}
+},
+{
+	"action": {
+		"type": "css-display-none",
+		"selector": "a[href*='matomeantena.com']"
+	},
+	"trigger": {
+		"url-filter": ".*"
+	}
+},
+{
+	"action": {
+		"type": "css-display-none",
 		"selector": "a[href*='newmofu.doorblog.jp']"
 	},
 	"trigger": {
