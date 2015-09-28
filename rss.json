@@ -4,15 +4,6 @@
 		"type":"block"
 	},
 	"trigger":{  
-		"url-filter":".+rss.+",
-        "resource-type": ["script", "document", "raw"]
-	}
-}, 
-{  
-	"action":{  
-		"type":"block"
-	},
-	"trigger":{  
 		"url-filter":"//blogroll.livedoor.net/js/blogroll.js"
 	}
 }, 
