@@ -3,8 +3,8 @@
 [Superblockをダウンロード](https://itunes.apple.com/us/app/superblock-guang-gaoburokku/id1041786553?l=ja&ls=1&mt=8)  
 
 ##お知らせ
-アップデート版をAppleに申請しました。  
-10月8日ごろに公開されると思います。  
+アップデートをAppleに申請しました。  
+10月8日ごろに配信されると思います。  
   
 
 ##不具合について  
